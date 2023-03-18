@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Appointment Contact Form</title>
+</head>
+<body>
+
+<center><h2>Appointment Form</h2></center>
+<div>
+  <div>
+    <div class="container">
+	
+      <form actions="page2.html" method="post">
+      
+        
+            
+        <div >
+          <div><br>
+           <label for="name"></label>
+           <input type="text" id="fname" name="name" placeholder="Name" required>
+	
+  
+           <label for="email"></label>
+           <input type="text" id="email" name="email" placeholder="Email" required>
+
+
+           <label for="phone"></label>
+           <input type="number" id="phone" name="phone" placeholder="Phone" required>
+	
+	
+	
+         	<textarea id="Message" name="Message" placeholder="Write your medical condition" style="height:230px" required></textarea>
+          
+          </div>
+          <div>
+        
+            <label><b>Days of the week you are available for appointment:</b></label><br>
+            <input type="checkbox" id="day1" name="day1" value="Monday">
+            <label>Monday</label >
+            <input type="checkbox" id="day2" name="day2" value="Tuesday">
+            <label>Tuesday</label>
+            <input type="checkbox" id="day3" name="day3" value="Wednesday">
+            <label>Wednesday</label>
+            <input type="checkbox" id="day4" name="day4"value="Thursday">
+            <label>Thursday</label>
+            <input type="checkbox" id="day5" name="day5"value="Friday">
+            <label>Friday</label><br><br><br>
+            <label><b>Best time of day for your appointment:</b></label><br>
+            <input type="checkbox" id="shift1" name="shift1" value="Morning">
+            <label>Morning</label><br>
+            <input type="checkbox" id="shift2" name="shift2" value="Evening">
+            <label">Afternoon</label><br>
+            </div>
+            <button type = "button" onclick =
+			"window.location.href='file:///C:/Users/Prashant%20Chauhan/Desktop/MIT/page2.html';">
+			send your request
+    </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
